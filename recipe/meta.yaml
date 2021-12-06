@@ -1,5 +1,5 @@
 {% set name = "objprint" %}
-{% set version = "0.1.4" %}
+{% set version = "0.2.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/objprint-{{ version }}.tar.gz
-  sha256: df237e330ff78b9661a9b84d2ee3aa6fcda56d6f185793e3942e78cea7601ff4
+  sha256: 5a40b03a71ea490f6279e3c14838f9dc5ce1a74e2769369755a04dec1f2c0f08
 
 build:
   number: 0
