@@ -1,11 +1,11 @@
-About objprint
-==============
+About objprint-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/objprint-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/gaogaotiantian/objprint
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/objprint-feedstock/blob/main/LICENSE.txt)
 
 Summary: A library that can print Python objects in human readable format
 
