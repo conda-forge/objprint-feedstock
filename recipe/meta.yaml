@@ -7,7 +7,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/objprint-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/objprint-{{ version }}.tar.gz
   sha256: b5d83f9d62db5b95353bb42959106e1cd43010dcaa3eed1ad8d7d0b2df9b2d5a
 
 build:
@@ -18,9 +18,10 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python {{ python_min }}
+    - setuptools
   run:
-    - python >=3.6
+    - python >={{ python_min }}
 
 test:
   imports:
